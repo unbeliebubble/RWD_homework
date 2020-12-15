@@ -50,7 +50,35 @@
             </div>
         </div>
         <div class="slider container">
-            
+            <div class="slides">
+                <!-- radio button -->
+                <input type="radio" name="radio_btn" id="radio1">
+                <input type="radio" name="radio_btn" id="radio2">
+                <input type="radio" name="radio_btn" id="radio3">
+                <!-- slide img -->
+                <div class="slide first">
+                    <img src="img/img_slider_img1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/img_slider_img2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/img_slider_img3.jpg" alt="">
+                </div>
+                <!-- automatic navigation -->
+                <div class="navigation_auto">
+                    <div class="auto_btn1"></div>
+                    <div class="auto_btn2"></div>
+                    <div class="auto_btn3"></div>
+                </div>
+                <!-- manual navigation -->
+                <div class="navigation_manual">
+                    <label for="radio1" class="manual_btn"></label>
+                    <label for="radio2" class="manual_btn"></label>
+                    <label for="radio3" class="manual_btn"></label>
+                </div>
+                <script src="js/slide.js"></script>
+            </div>
         </div>
         <script src="" async defer></script>
     </body>
