@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@100;200&display=swap');
 body{
     height: 2360px;
+    background-color: #F9F7F5;
 }
 /* 測試用 */
 .container{
@@ -78,7 +79,6 @@ body{
   }
 
   /* slider */
-  .slider{
-      margin-top: 60px;
-  }
- 
+ .slide{
+     object-fit: cover;
+ }
